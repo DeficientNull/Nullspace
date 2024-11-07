@@ -15,7 +15,6 @@ div {
 h1 {
 	font-family: "Roboto", sans-serif;
 	color: lightgray;
-	text-align; center;
 	font-weight: bold;
 }
 
@@ -25,11 +24,29 @@ h2 {
 	font-weight: bold;
 }
 
+h3 {
+	font-family: "Roboto", sans-serif;
+	color: lightgray;
+	font-weight: bold;
+}
+
+h4 {
+	font-family: "Roboto", sans-serif;
+	color: lightgray;
+	font-weight: bold;
+}
+
+
 p {
 	font-family: "Roboto", serif;
 	font-weight: 300;
 	color: lightgray;
 	font-size: 18px;
+}
+
+img {
+	height: 40%;
+	width: 60%;
 }
 
 ul {
