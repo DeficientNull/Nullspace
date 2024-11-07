@@ -13,16 +13,25 @@ div {
 h1 {
 	color: lightgray;
 	text-align; center;
+	font-weight: bold;
 }
 
 h2 {
 	color: lightgray;
-	text-align; center;
+	font-weight: bold;
 }
 
 p {
 	color: lightgray;
-	font-size: 16px;
+	font-size: 18px;
+}
+
+ul {
+	color: lightgray;
+}
+
+ol {
+	color: lightgray;
 }
 
 a {
