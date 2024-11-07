@@ -1,0 +1,60 @@
+html {
+	background-image: url("assets/newworld6.png")
+}
+
+body {
+}
+
+div {
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+h1 {
+	color: lightgray;
+	text-align; center;
+}
+
+h2 {
+	color: lightgray;
+	text-align; center;
+}
+
+p {
+	color: lightgray;
+	font-size: 16px;
+}
+
+a {
+	color: lightblue;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	align-content: stretch;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.navbuttons {
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.name {
+	color: lightgray;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.content {}
+
+.footer {}
