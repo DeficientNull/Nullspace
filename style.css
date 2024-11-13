@@ -101,7 +101,45 @@ a {
 	padding-top: 40px;	
 }
 
-.fa-github {
-	Color: lightgray;
-	font-size: 50px;
+@media all and (max-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+	div {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.name {
+		font-size: 30px;
+	}
+	
+	.navbuttons {
+		font-size: 20px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.logo {
+		margin-left: 0px;
+		margin-right: 10px;
+	}
 }
+@media all and (max-width:480px)  {
+/* smartphones, Android phones, landscape iPhone */ 
+	div {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.name {
+		font-size: 30px;
+	}
+
+	.navbuttons {
+		font-size: 20px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.logo {
+		margin-left: 0px;
+		margin-right: 10px;
+	}
+}	 
