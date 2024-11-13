@@ -101,10 +101,11 @@ a {
 	padding-top: 40px;	
 }
 
-@media all and (max-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+@media screen and (max-width:1366px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
 	div {
-		margin-left: 20px;
-		margin-right: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 
 	.name {
@@ -122,11 +123,11 @@ a {
 		margin-right: 10px;
 	}
 }
-@media all and (max-width:480px)  {
+@media screen and (max-width:480px)  {
 /* smartphones, Android phones, landscape iPhone */ 
 	div {
-		margin-left: 20px;
-		margin-right: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 	.name {
 		font-size: 30px;
